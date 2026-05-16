@@ -1,0 +1,55 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and local config
+.env
+.env.*
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Local agent/planning notes
+AGENTS.md
+PLANS.md
+ROUTIO_EXECPLAN.md
+techspec.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs: keep only curated README assets by default.
+outputs/**
+!outputs/
+!outputs/01_city_graph.png
+!outputs/02_od_matrix_heatmap.png
+!outputs/03_baseline_routes_colored.png
+!outputs/04_ga_routes_colored.png
+!outputs/05_baseline_edge_load.png
+!outputs/06_ga_edge_load.png
+!outputs/07_ga_center_zoom_colored.png
+!outputs/08_baseline_center_zoom_colored.png
+!outputs/09_ga_loss_history.png
+!outputs/10_ga_components_history.png
+!outputs/11_method_comparison.png
+!outputs/12_llm_routes_colored.png
+!outputs/13_llm_edge_load.png
+!outputs/14_llm_center_zoom_colored.png
+!outputs/demo.gif
+!outputs/metrics_comparison.csv
+!outputs/method_comparison_with_llm.csv
